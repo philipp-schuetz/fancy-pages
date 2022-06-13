@@ -1,0 +1,130 @@
+@import url('http://fonts.cdnfonts.com/css/digital-7-mono');
+body {
+    padding: 10px;
+    font-family: monospace;
+    font-size: x-large;
+    color: #f6f6f6;
+    background-color: #030045;
+}
+
+strong {
+    text-decoration: underline;
+}
+
+i {
+    color: #8edec6;
+}
+
+.todo {
+    color: #ffc200;
+}
+
+.calc {
+    border: #4d90fe 1px solid;
+    background-color: #333333;
+    color: #030045;
+    min-width: 400px;
+    padding: 25px;
+}
+
+.output {
+    border: 1px solid #1857bb;
+    height: 60px;
+    padding: 15px 20px 0px 20px;
+    text-align: right;
+    font-family: 'Digital-7 Mono', sans-serif;
+    font-size: 32pt;
+    color: #00d296;
+    background-color: black;
+    overflow-x: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.output:hover {
+    border: 1px solid #8edec6;
+}
+
+.output:active {
+    /* Yes! This function is completely intended, but why and what for? */
+    background-color: #ff0032;
+    color: #fff;
+    transform: rotate(180deg);
+}
+
+.input {
+    padding-left: 4px;
+}
+
+.opsbtns div {
+    display: inline-block;
+    border: 1px solid #bbb;
+    border-radius: 1px;
+    width: 60px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 4px 10px 0;
+    cursor: pointer;
+    background-color: #8edec6;
+    transition: border-color 0.5s ease-in-out, background-color 0.2s;
+}
+
+.opsbtns div:hover {
+    background-color: #33dbab;
+    border-color: #aaa;
+}
+
+.opsbtns div:active {
+    font-weight: bold;
+    background-color: #00543c;
+}
+
+.numbtns {
+    display: inline-block;
+}
+
+.numbtn div {
+    display: inline-block;
+    border: 1px solid #ddd;
+    width: 60px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 4px 10px 0;
+    cursor: pointer;
+    background-color: #ededed;
+    transition: border-color 0.5s ease-in-out, background-color 0.2s;
+}
+
+.numbtn div:hover {
+    background-color: #8edec6;
+    border-color: #bbb;
+}
+
+.numbtn div:active {
+    font-weight: bolder;
+    color: #00543c;
+    background-color: #00a073;
+}
+
+div.equals {
+    display: inline-block;
+    border: 1px solid #3079ed;
+    border-radius: 1px;
+    width: 60px;
+    text-align: center;
+    padding: 108px 10px;
+    margin: 10px 6px 10px 0;
+    vertical-align: top;
+    cursor: pointer;
+    color: #fff;
+    background-color: #4d90fe;
+    transition: all 0.2s ease-in-out;
+}
+
+div.equals:hover {
+    background-color: #307cf9;
+    border-color: #030045;
+}
+
+div.equals:active {
+    font-weight: bold;
+}
