@@ -53,20 +53,20 @@ body {
 }
 
 #box .frt {
-    transform: translateZ(102px) rotateY(0deg);
-}
-
-#box .bck {
     transform: translateZ(-100px) rotateY(0deg);
 }
 
+#box .bck {
+    transform: translateZ(102px) rotateY(0deg);
+}
+
 #box .lft {
-    transform: rotateX(-90deg) rotateY(-90deg) translateY(-102px) translateX(100px) translateZ(101px);
-    background: #ddd;
+    transform: rotateY(-90deg) rotateZ(90deg) translateX(100px) translateY(-101px) translateZ(-100px);
 }
 
 #box .rgt {
-    transform: rotateY(-90deg) rotateZ(90deg) translateX(100px) translateY(-101px) translateZ(-100px);
+    transform: rotateX(-90deg) rotateY(-90deg) translateY(-102px) translateX(100px) translateZ(101px);
+    background: #ddd;
 }
 
 #box .top {
